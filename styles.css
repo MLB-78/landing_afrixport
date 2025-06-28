@@ -191,6 +191,20 @@ body {
     padding: 2rem 0;
 }
 
+
+.footer a {
+    color: white;              /* icons blancs */
+    text-decoration: none;     /* enlève le soulignement */
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #fcb900; /* couleur au survol (jaune/orangé stylé) */
+}
+
+
 .footer p {
     margin-bottom: 0.5rem;
 }
