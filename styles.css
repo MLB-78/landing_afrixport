@@ -159,6 +159,52 @@ body {
     color: white;
 }
 
+/* Legal Content */
+.legal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+    text-align: left;
+}
+
+.legal-content h4 {
+    color: #2E8B57;
+    font-size: 1.3rem;
+    margin: 1.5rem 0 1rem 0;
+    border-bottom: 2px solid #2E8B57;
+    padding-bottom: 0.5rem;
+}
+
+.legal-content h4:first-child {
+    margin-top: 0;
+}
+
+.legal-content p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.legal-content ul {
+    margin: 1rem 0 1rem 2rem;
+}
+
+.legal-content li {
+    margin-bottom: 0.5rem;
+}
+
+.legal-content a {
+    color: #2E8B57;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.legal-content a:hover {
+    color: #1a5f3a;
+    text-decoration: underline;
+}
+
 .contact-form {
     max-width: 500px;
     margin: 2rem auto;
@@ -191,6 +237,30 @@ body {
     padding: 2rem 0;
 }
 
+.email-policy {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+    text-align: left;
+}
+
+.email-policy p {
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.email-policy a {
+    color: #2E8B57;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.email-policy a:hover {
+    color: #fcb900;
+    text-decoration: underline;
+}
 
 .footer a {
     color: white;              /* icons blancs */
@@ -203,7 +273,6 @@ body {
 .footer a:hover {
     color: #fcb900; /* couleur au survol (jaune/orangé stylé) */
 }
-
 
 .footer p {
     margin-bottom: 0.5rem;
